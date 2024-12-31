@@ -4,7 +4,7 @@ import "./UserProfile.css";
 function UserProfile() {
   return (
     <div className="user-profile-container">
-      {/* Left Section */}
+      
       <div className="left-section">
         <div className="user-avatar">
      
