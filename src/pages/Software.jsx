@@ -3,7 +3,7 @@ import { FaSearch, FaPlus, FaExclamationCircle, FaUser, FaHome, FaCogs, FaDataba
 import { FiChevronDown } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
-// Componente para os ícones da barra lateral
+
 const SidebarIcon = ({ icon, label, to }) => (
   <Link to={to} className="flex flex-col items-center mb-10 hover:text-white group">
     <div className="text-white text-2xl mb-2 group-hover:scale-110 group-hover:text-gray-800 transition-all duration-200 ease-in-out">
@@ -104,10 +104,9 @@ const Modal = ({ isOpen, closeModal, software }) => {
 
   const sidebarIcons = [
     { icon: <FaHome />, label: "Home", to: "/tela" },
-    { icon: <FaCogs />, label: "Software", to: "/software" },
     { icon: <FaDatabase />, label: "CMDB", to: "/cmdb" },
     { icon: <FaFileAlt />, label: "Contracts", to: "/contracts" },
-    { icon: <FaTools />, label: "Settings", to: "/perfil" },
+    { icon: <FaTools />, label: "COnfigurações", to: "/perfil" },
   ];
 
   const softwareData = [
@@ -208,5 +207,3 @@ const Modal = ({ isOpen, closeModal, software }) => {
 };
 
 export default Software;
-
-

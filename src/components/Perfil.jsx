@@ -10,17 +10,17 @@ function UserProfile() {
      
 
         </div>
-      <div className="wow">
+      <div className="social">
         <h2>Nome do Usuário</h2>
         <p>E-mail do Usuário</p>
         </div>
         
         <div className="buttons-container">
         
-          <button>Favoritos</button>
-          <button>Contas</button>
+          
+          <button>Reclamar</button>
+          <button>Mudar Senha</button>
           <button>Sair</button>
-          <button>Mudar senha</button>
         </div>
       </div>
       

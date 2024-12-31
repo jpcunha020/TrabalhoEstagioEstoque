@@ -27,12 +27,12 @@
         border: 4px solid #fff; 
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   }
-  .wow{
+  .social{
     font-family: Poppins;
     margin-bottom: 40px;
     font-size: 25px;
   }
-  .wow p{
+  .social p{
     color: #f0f0f0;
     text-align: center;
     font-size: 18px;

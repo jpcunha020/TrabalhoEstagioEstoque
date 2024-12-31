@@ -83,11 +83,20 @@ const LoginForm = ({ onLogin }) => {
         Entrar
       </motion.button>
 
-      <Link to="/esqueci">
-        <p className="text-blue-900 text-sm text-right hover:text-blue-500 transition cursor-pointer">
-          Esqueceu a senha?
-        </p>
-      </Link>
+      {/* Links de Cadastro e Esqueci */}
+      <div className="w-full flex justify-between text-sm text-blue-900 mt-4">
+        <Link to="/cadastro">
+          <p className="hover:text-blue-500 transition cursor-pointer">
+            Ainda não tem uma conta?
+          </p>
+        </Link>
+
+        <Link to="/esqueci">
+          <p className="hover:text-blue-500 transition cursor-pointer">
+            Esqueceu a senha?
+          </p>
+        </Link>
+      </div>
     </form>
   );
 };
@@ -110,11 +119,11 @@ const Login = () => {
       </div>
 
       <div className="flex-1 bg-gray-100 flex flex-col items-center justify-center p-6 relative">
-        <img
-          className="absolute h-[200px] top-[15px] transform -translate-x-36 mb-6 left-96"
-          src="https://aviculturadonordeste.com.br/wp-content/uploads/2023/12/Tijuca-Alimentos-768x490-1.png"
-          alt="Logo Tijuca"
-        />
+      <img
+            className="absolute h-[200px] left-1/2 top-[80px] transform -translate-x-40"
+            src="https://aviculturadonordeste.com.br/wp-content/uploads/2023/12/Tijuca-Alimentos-768x490-1.png"
+            alt="Logo Tijuca"
+          />
         <LoginForm onLogin={handleSuccessfulLogin} />
       </div>
     </div>
