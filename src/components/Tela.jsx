@@ -243,11 +243,11 @@ const Tela = () => {
     <div className="min-h-screen bg-gray-100">
       <div className="absolute w-20 h-full bg-gradient-to-b from-blue-800 to-blue-700 p-9">
         <div className="mb-40"></div>
-        <SidebarIcon icon={<FaHome />} label="Início" to="/Tela" />
-        
+        <SidebarIcon icon={<FaHome />} label="Home" to="/Tela" />
+        <SidebarIcon icon={<FaCogs />} label="Software" to="/software" />
         <SidebarIcon icon={<FaDatabase />} label="CMDB" to="/CMDB" />
         <SidebarIcon icon={<FaFileAlt />} label="Contracts" to="/contracts" />
-        <SidebarIcon icon={<FaTools />} label="Configurações" to="/perfil" />
+        <SidebarIcon icon={<FaTools />} label="Settings" to="/perfil" />
       </div>
 
       <div className="ml-24 pt-10 pb-16 px-8">
@@ -256,12 +256,11 @@ const Tela = () => {
           <div className="flex space-x-4">
             <button
               onClick={() => openModal()}
-              className="bg-blue-600 text-white py-2 px-4 rounded-lg flex items-center"
+              className="bg-blue-600 text-white py-2 px-6 rounded-lg flex items-center"
             >
               <FaPlus className="mr-5" /> Adicionar
             </button>
           </div>
-         
         </div>
 
         <div className="mt-12 bg-gray-50 p-6 rounded-lg shadow-md border border-gray-300">

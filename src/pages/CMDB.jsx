@@ -160,11 +160,11 @@ const CMDB = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const sidebarIcons = [
-    { icon: <FaHome />, label: "Início", to: "/tela" },
-    
+    { icon: <FaHome />, label: "Home", to: "/tela" },
+    { icon: <FaCogs />, label: "Software", to: "/software" },
     { icon: <FaDatabase />, label: "CMDB", to: "/cmdb" },
     { icon: <FaFileAlt />, label: "Contracts", to: "/contracts" },
-    { icon: <FaTools />, label: "Configurações", to: "/perfil" },
+    { icon: <FaTools />, label: "Settings", to: "/perfil" },
   ];
 
   useEffect(() => {

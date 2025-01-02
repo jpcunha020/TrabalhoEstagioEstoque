@@ -179,6 +179,7 @@ const Contracts = () => {
 
   const sidebarIcons = [
     { icon: <FaHome />, label: "Início", to: "/Tela" },
+    { icon: <FaCogs />, label: "Software", to: "/software" },
     { icon: <FaDatabase />, label: "CMDB", to: "/cmdb" },
     { icon: <FaFileAlt />, label: "Contratos", to: "/contracts" },
     { icon: <FaTools />, label: "Configurações", to: "/perfil" },
@@ -263,6 +264,9 @@ const Contracts = () => {
               className="bg-blue-600 text-white py-2 px-4 rounded-lg flex items-center"
             >
               <FaPlus className="mr-2" /> Adicionar
+            </button>
+            <button className="px-4 py-2 bg-red-500 text-white rounded-lg flex items-center">
+              <FaExclamationCircle className="mr-2" /> Reclamar
             </button>
           </div>
         </div>
