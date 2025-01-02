@@ -3,14 +3,13 @@ import "./UserProfile.css";
 
 function UserProfile() {
   return (
-    <div className="user-profile-container">
+    <div className="user-profile-container">         
       
       <div className="left-section">
         <div className="user-avatar">
      
-
         </div>
-      <div className="social">
+      <div className="social">  
         <h2>Nome do Usuário</h2>
         <p>E-mail do Usuário</p>
         </div>
@@ -24,17 +23,6 @@ function UserProfile() {
         </div>
       </div>
       
-
-      
-      <div className="right-section">
-        <div className="image-placeholder"></div>
-        <p>
-          Usuário é administrador de uma empresa ??? <br />
-          Tem 4 Contratos com Outras empresas. <br />
-          Vende produtos de Alimentação.
-        </p>
-        <button className="back-button">Volta</button>
-      </div>
     </div>
   );
 }
