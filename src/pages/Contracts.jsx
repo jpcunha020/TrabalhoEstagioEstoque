@@ -179,7 +179,7 @@ const Contracts = () => {
 
   const sidebarIcons = [
     { icon: <FaHome />, label: "Início", to: "/Tela" },
-    { icon: <FaCogs />, label: "Software", to: "/software" },
+  
     { icon: <FaDatabase />, label: "CMDB", to: "/cmdb" },
     { icon: <FaFileAlt />, label: "Contratos", to: "/contracts" },
     { icon: <FaTools />, label: "Configurações", to: "/perfil" },
