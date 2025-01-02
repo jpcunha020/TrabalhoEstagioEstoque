@@ -161,7 +161,6 @@ const CMDB = () => {
 
   const sidebarIcons = [
     { icon: <FaHome />, label: "Home", to: "/tela" },
-    { icon: <FaCogs />, label: "Software", to: "/software" },
     { icon: <FaDatabase />, label: "CMDB", to: "/cmdb" },
     { icon: <FaFileAlt />, label: "Contracts", to: "/contracts" },
     { icon: <FaTools />, label: "Settings", to: "/perfil" },
