@@ -244,7 +244,7 @@ const Tela = () => {
       <div className="absolute w-20 h-full bg-gradient-to-b from-blue-800 to-blue-700 p-9">
         <div className="mb-40"></div>
         <SidebarIcon icon={<FaHome />} label="Home" to="/Tela" />
-        <SidebarIcon icon={<FaCogs />} label="Software" to="/software" />
+
         <SidebarIcon icon={<FaDatabase />} label="CMDB" to="/CMDB" />
         <SidebarIcon icon={<FaFileAlt />} label="Contracts" to="/contracts" />
         <SidebarIcon icon={<FaTools />} label="Settings" to="/perfil" />
@@ -313,3 +313,4 @@ const Tela = () => {
 };
 
 export default Tela;
+
